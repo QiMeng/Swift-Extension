@@ -8,11 +8,22 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
                             
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        println(self.view.left)
+        println(self.view.top)
+        println(self.view.right)
+        println(self.view.bottom)
+        println(self.view.width)
+        println(self.view.height)
+        println(self.view.origin)
+        println(self.view.size)
+        
     }
 
     override func didReceiveMemoryWarning() {

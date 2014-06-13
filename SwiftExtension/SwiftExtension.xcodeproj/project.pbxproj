@@ -13,6 +13,7 @@
 		7CE6F9B0194ACE17003001FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CE6F9AE194ACE17003001FD /* Main.storyboard */; };
 		7CE6F9B2194ACE17003001FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE6F9B1194ACE17003001FD /* Images.xcassets */; };
 		7CE6F9BE194ACE17003001FD /* SwiftExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE6F9BD194ACE17003001FD /* SwiftExtensionTests.swift */; };
+		7CE6F9C9194ACE75003001FD /* UIViewSize+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE6F9C8194ACE75003001FD /* UIViewSize+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		7CE6F9B7194ACE17003001FD /* SwiftExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE6F9BC194ACE17003001FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CE6F9BD194ACE17003001FD /* SwiftExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExtensionTests.swift; sourceTree = "<group>"; };
+		7CE6F9C8194ACE75003001FD /* UIViewSize+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewSize+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				7CE6F9A7194ACE17003001FD /* AppDelegate.swift */,
 				7CE6F9AC194ACE17003001FD /* ViewController.swift */,
+				7CE6F9C7194ACE53003001FD /* UIViewSize+Extension */,
 				7CE6F9AE194ACE17003001FD /* Main.storyboard */,
 				7CE6F9B1194ACE17003001FD /* Images.xcassets */,
 				7CE6F9A9194ACE17003001FD /* SwiftExtension.xcdatamodeld */,
@@ -110,6 +113,14 @@
 				7CE6F9BC194ACE17003001FD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CE6F9C7194ACE53003001FD /* UIViewSize+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7CE6F9C8194ACE75003001FD /* UIViewSize+Extension.swift */,
+			);
+			name = "UIViewSize+Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CE6F9AD194ACE17003001FD /* ViewController.swift in Sources */,
+				7CE6F9C9194ACE75003001FD /* UIViewSize+Extension.swift in Sources */,
 				7CE6F9A8194ACE17003001FD /* AppDelegate.swift in Sources */,
 				7CE6F9AB194ACE17003001FD /* SwiftExtension.xcdatamodeld in Sources */,
 			);
